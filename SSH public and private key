@@ -1,0 +1,37 @@
+(base) ~> ssh sshpract
+
+default@localhost's password:
+
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.19.76-linuxkit x86_64)
+
+ 
+
+* Documentation:  https://help.ubuntu.com
+
+* Management:     https://landscape.canonical.com
+
+* Support:        https://ubuntu.com/advantage
+
+ 
+
+This system has been minimized by removing packages and content that are
+
+not required on a system that users do not log into.
+
+ 
+
+To restore this content, you can run the 'unminimize' command.
+
+Last login: Fri Oct 30 08:11:40 2020 from 172.17.0.1
+
+To run a command as administrator (user "root"), use "sudo <command>".
+
+See "man sudo_root" for details.
+
+ 
+
+(base) ~> scp -P 2222 ~/.ssh/config default@localhost:~
+
+default@localhost's password:
+
+config                                        100%   88    21.0KB/s   00:00
